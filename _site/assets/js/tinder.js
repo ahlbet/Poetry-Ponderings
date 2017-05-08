@@ -78,6 +78,70 @@ var matches = [
   {
     name: 'Zhiwei',
     bio: 'I GOT THAT 4K HIGH DEF HD PUSSY GAME ON MAJOR KEY <br> Looking for a girl/guy/couple to hang out with me and my boiiii'
+  },
+  {
+    name: 'Rachel',
+    bio: 'Just looking for someone I look forward to seeing as much I look forward to Fridays'
+  },
+  {
+    name: 'Layla',
+    bio: 'U should be like a bowl of cornflakes. Sweet, cold, harmless, available, dry, wet, corn, sexless, dangerous, shy, extroverted, the Grand Canyon, hot, 2 inches tall, the opposite of urself, God also'
+  },
+  {
+    name: 'Victoria',
+    bio: 'latina. i design. i code. i hoop. i sample more than i should from costco. where\'s my tv show?'
+  },
+  {
+    name: 'Elizabeth',
+    bio: 'Good at Minesweeper, bad at everything else.'
+  },
+  {
+    name: 'Meghan',
+    bio: 'My life changed when I realized I could say any dumb thought on my mind and pass it off as my dry sense of humor.'
+  },
+  {
+    name: 'Denise',
+    bio: 'Send me songs for my groovy playlist'
+  },
+  {
+    name: 'Cole',
+    bio: 'blahzy blahzy'
+  },
+  {
+    name: 'Erin',
+    bio: 'Denver || Los Angeles || Chicago <br> my favorite scent is William Shakespearemint <br> Dancer'
+  },
+  {
+    name: 'Laura',
+    bio: 'I\'m a chemical engineering grad student at ND. I enjoy coffee and bad puns.'
+  },
+  {
+    name: 'Rachel',
+    bio: 'American doin some fuckshit out here in London. <br> P.S. If you start me talking about music, I prolly won\'t stop. Just warning you ahead of time.'
+  },
+  {
+    name: 'Louisa',
+    bio: 'power lady <br> MN // Chicago'
+  },
+  {
+    name: 'Laura',
+    bio: '#savethebees'
+  },
+  {
+    name: 'Ashley',
+    bio: 'The first man in my life is John D Rockefeller. Then George Washington. Then Patton. Kanye West. Honestly you\'ll hit maybe 19th at best'
+  },
+  {
+    name: 'McKenzie',
+    bio: 'Just like other girls.'
+  },
+  {
+    name: 'Alexis',
+    bio: 'music, hiking, coffee, beers, and many other things. <br> Adulting? <br> Not really looking for hookups, but always looking for cool shows and drinking buddies'
+  },
+  {
+    name: 'Madeline',
+    bio: 'Looking for someone to sleep over at my place when y roomate\'s busy with her lover'
   }
 ];
 
@@ -97,14 +161,15 @@ var chooser = randomNoRepeats(matches);
 window.setInterval(function(){
   // $('.text-area').empty();
   var genOne = chooser();
+  var genTwo = chooser();
   var nameOne = genOne.name;
-  var bioOne = genOne.bio;
+  var bioOne = genTwo.bio;
   $('.text-area-one').append('<p>' + nameOne + '</p>');
   $('.text-area-one').append('<p>' + bioOne + '</p>');
 
-  var genTwo = chooser();
-  var nameTwo = genTwo.name;
-  var bioTwo = genTwo.bio;
-  $('.text-area-two').append('<p>' + nameTwo + '</p>');
-  $('.text-area-two').append('<p>' + bioTwo + '</p>');
+  // var genTwo = chooser();
+  // var nameTwo = genTwo.name;
+  // var bioTwo = genTwo.bio;
+  // $('.text-area-two').append('<p>' + nameTwo + '</p>');
+  // $('.text-area-two').append('<p>' + bioTwo + '</p>');
 }, 3500);
