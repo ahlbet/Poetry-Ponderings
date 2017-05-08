@@ -163,9 +163,9 @@ window.setInterval(function(){
   var genOne = chooser();
   var genTwo = chooser();
   var nameOne = genOne.name;
-  var bioOne = genTwo.bio;
+  var bioTwo = genTwo.bio;
   $('.text-area-one').append('<p>' + nameOne + '</p>');
-  $('.text-area-one').append('<p>' + bioOne + '</p>');
+  $('.text-area-one').append('<p>' + bioTwo + '</p>');
 
   // var genTwo = chooser();
   // var nameTwo = genTwo.name;
