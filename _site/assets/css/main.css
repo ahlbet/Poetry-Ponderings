@@ -248,7 +248,7 @@ body {
   background: url(../img/collagecollage-copy.jpg) center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   padding-bottom: 40px; }
   .alt-header header .logo-wrap {
     display: -webkit-box;
@@ -352,7 +352,7 @@ body {
   background: url(../img/collagecollage-copy.jpg) center center;
   background-repeat: no-repeat;
   background-size: cover;
-  background-attachment: fixed;
+  background-attachment: scroll;
   padding: 50px 0;
   display: -webkit-box;
   display: -moz-box;
