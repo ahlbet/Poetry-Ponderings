@@ -1,0 +1,48 @@
+.alt-header
+  header
+    background: url(../img/collagecollage-copy.jpg) center center
+    background-repeat: no-repeat
+    background-size: cover
+    background-attachment: fixed
+    padding-bottom: 40px
+    .logo-wrap
+      +display(flex)
+      +justify-content(center)
+      height: 54px
+      width: 100%
+      padding-top: 10px
+      .logo
+        +size(50px)
+        background-image: url(../img/logo.jpg)
+        background-size: cover
+        border: 2px solid $black
+        border-radius: 100%
+
+        // @media screen and (min-width: 480px)
+        //   float: left
+        //   margin: 10px 0 0 30px
+    nav
+      // float: right
+      // margin: 30px 30px 0 0
+      margin-top: 10px
+      text-align: center
+      a
+        display: inline-block
+        margin: 0 10px
+        @extend %small-bold
+        // margin-left: 25px
+    h1
+      margin-top: 50px
+      text-align: center
+      font-size: 40px
+      letter-spacing: 0.05em
+      text-transform: uppercase
+      clear: both
+
+      span
+        padding: 10px
+        border-top: 5px solid $h1-color
+        border-bottom: 5px solid $h1-color
+
+    .kicker
+      @extend %kicker

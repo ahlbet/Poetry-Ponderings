@@ -1,0 +1,30 @@
+.alt-tinder
+  nav
+    a
+      text-transform: uppercase
+      font-weight: bold
+      margin: 30px 0 0 10px
+  .title-text
+    text-align: center
+    h1
+      margin-bottom: 0
+      text-transform: uppercase
+      font-size: 30px
+      span
+        padding: 10px
+        border-top: 5px solid $h1-color
+        border-bottom: 5px solid $h1-color
+    .kicker
+      @extend %kicker
+      margin: 30px 0        
+
+  .text-area
+    text-align: center
+    margin: 0 auto
+    // +display(flex)
+    // +justify-content(center)
+
+    .text-area-one,
+    .text-area-two
+      max-width: 300px
+      margin: 0 auto
