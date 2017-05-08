@@ -479,7 +479,6 @@ p {
 .alt-tinder .text-area {
   text-align: center;
   margin: 0 auto; }
-  .alt-tinder .text-area .text-area-one,
-  .alt-tinder .text-area .text-area-two {
-    max-width: 300px;
+  .alt-tinder .text-area .text-area-one {
+    max-width: 640px;
     margin: 0 auto; }
