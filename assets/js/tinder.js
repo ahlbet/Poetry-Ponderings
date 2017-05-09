@@ -14,13 +14,6 @@ function randomNoRepeats(array) {
 var chooser = randomNoRepeats(matches);
 
 window.setInterval(function(){
-  // $('.text-area').empty();
   var genOne = chooser();
   $('.text-area-one').append('<p>' + genOne + '</p>');
-
-  // var genTwo = chooser();
-  // var nameTwo = genTwo.name;
-  // var bioTwo = genTwo.bio;
-  // $('.text-area-two').append('<p>' + nameTwo + '</p>');
-  // $('.text-area-two').append('<p>' + bioTwo + '</p>');
 }, 3500);
